@@ -1,0 +1,22 @@
+{
+    "myLinks": [
+    {
+    "project": "My website",
+    "pt1": "This website demonstrates how I can use HTML, CSS, and JavaScript.",
+    "pt2": "This is published via Github, which I have experience in.",
+    "pt3": "Future goals for this project are to add more technically complex elements."
+    },
+    {
+    "project": "Linguistics Research",
+    "pt1": "I have done computational research at Iowa State.",
+    "pt2": "Unfortunately, I cannot show the research I have dont, because the full paper is not published.",
+    "pt3": "The project is on how whether people can determine if writing is done by a person or an AI."
+    },
+    {
+    "project": "Work for COM S 319",
+    "pt1": "I am currently in a class on the construction of user interfaces.",
+    "pt2": "The class teaches HTML, CS, JavaScript, and JSON.",
+    "pt3": "By the end of the semester, I will also learn to use libraries, databases, and frameworks."
+    }
+    ]
+    }
