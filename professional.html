@@ -16,6 +16,40 @@
     ISU Netid : nmauss@iastate.edu
     Date : September 13th, 2023 -->
 
+        <style>
+        body {
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        } 
+
+        .text-container {
+            position: relative;
+            width: 300px;
+            height: 150px;
+            border: 3px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            background: white;
+            overflow: visible;
+        }
+
+        .circle {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background-color: red;
+            border-radius: 50%;
+            top: -20px;  /* Adjusts how much it crosses the border */
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
 
 
 
@@ -44,6 +78,32 @@
                     <p style="color:grey">Web Developer</p>
                 </div>
                 <h1>Projects</h1>
+
+                <!-- <div class="quote-wrapper">
+                    <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
+                        <p>I can work with <a href="https://isugisf.maps.arcgis.com/home/user.html">ArcGIS</a></p>
+                      <footer>– Jesse James Garrett</footer> -->
+                    <!-- </blockquote>
+                  </div> -->
+
+                  <div class="arcgisimg">
+                    <div class="quote-wrapper">
+                        <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
+                            <p>I can work with <a href="https://isugisf.maps.arcgis.com/home/user.html">ArcGIS</a></p>
+                          <!-- <footer>– Jesse James Garrett</footer> -->
+                        </blockquote>
+                      </div>
+                    </div>
+
+
+                    <div class="tableauimg">
+                        <div class="quote-wrapper">
+                            <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
+                                <p><a>I can work with <a href="https://public.tableau.com/app/profile/naomi.mauss/viz/VacantHousinginIowa/Dashboard1">Tableau</a></p>
+                              <!-- <footer>– Jesse James Garrett</footer> -->
+                            </blockquote>
+                          </div>
+                        </div>
 
                 <h2>I can work with <a href="https://isugisf.maps.arcgis.com/home/user.html">ArcGIS</a></h2>
                 <p>ArcGIS is a geographical informational software. I'm interested in how considering geographical attributes can help clarify questions about data.</p>
