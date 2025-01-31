@@ -173,3 +173,22 @@ footer {
     top: 70%;
     left: -20%;
   }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgb(21.18% 34.9% 12.55%);
+  }
+  
+  /* When you mouse over the container, fade in the overlay icon*/
+  .quote-wrapper-large:hover .overlay {
+    opacity: 1;
+  }
