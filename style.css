@@ -160,6 +160,10 @@ footer {
     left: -40%;
   }
 
+  .arcgisimg:hover {
+    background-image: url('\\images\\arcgis_ex.png');    
+  }
+
   .tableauimg{
     align-items: center;
     position: relative;
@@ -186,6 +190,7 @@ footer {
     opacity: 0;
     transition: .3s ease;
     background-color: rgb(21.18% 34.9% 12.55%);
+    background-image: url('\\images\\arcgis_ex.png');  
   }
   
   /* When you mouse over the container, fade in the overlay icon*/
