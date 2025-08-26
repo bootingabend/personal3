@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
 
-    <style>
-        .container {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 40px;
-        }
-        .project {
-        margin-bottom: 20px;
-        border: 1px solid #ccc;
-        padding: 20px;
-        }
-        </style>
-</head>
 <body>
 
     <header>
@@ -33,18 +14,133 @@
     <div id="myLinks"></div>
     <script src="./getLinks.js"></script>
 
-    <!-- <h1>Current Projects:</h1>
-    <h3>Personal Website</h3>
-    <li>
-        <ol>This website demonstrates how I can use HTML, CSS, and JavaScript.</ol>
-        <ol>Furthermore, I can use JSON and</ol>
-        <ol>This is published via Github, which I have experience in.</ol>
-        <ol>Future goals for this project are to add more technically complex elements.</ol>
-    </li>
-    <h3>App Development</h3>
-    <li>
-        <ol>As more of a future project, </ol>
-    </li>
-     -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Projects</title>
+</head>
+<body>
+
+
+
+    
+    <!-- Author: Naomi Mauss
+    ISU Netid : nmauss@iastate.edu
+    Date : September 13th, 2023 -->
+
+        <style>
+        body {
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        } 
+
+        .text-container {
+            position: relative;
+            width: 300px;
+            height: 150px;
+            border: 3px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            background: white;
+            overflow: visible;
+        }
+
+        .circle {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background-color: red;
+            border-radius: 50%;
+            top: -20px;  /* Adjusts how much it crosses the border */
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+
+
+
+        <header>
+            <nav>
+                <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a><li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+                </nav>
+            </header>
+
+
+        <!-- <div id="side_photo"></div> <img src= "./images/profile.png" alt="Profile Photo"> -->
+        <div class="background">
+        <div id="side_photo">
+        <div class="bigger_container">
+            <section id="about">
+                 <div class="container">
+                
+                
+                <!-- <p style="font-family: 'Courier New', Courier, monospace; color: brown">Web Developer</p> -->
+                <div style="text-align: center;">
+                    <h1>Projects</h1>
+                </div>
+                
+                  <div class="SocAlcoa">
+                    <a href="https://isugisf.maps.arcgis.com/home/user.html">
+                    <div class="quote-wrapper-large">
+                        <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
+                            <p>I wrote a report on Alcoa, TN for a sociology class.</p>
+                        </blockquote>
+                      </div>
+                    </a>
+                </div>
+
+                <div class="GISGreenspace">
+                    <a href="https://isugisf.maps.arcgis.com/home/user.html">
+                    <div class="quote-wrapper-large">
+                        <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
+                            <p>I wrote a report on the correlation between city greenspace and health.</p>
+                        </blockquote>
+                      </div>
+                    </a>
+                </div>
+
+               </div>
+            </section>
+        </div>
+    </div>
+</div>
+       
+        <section id="contact">
+            <div class="bigger_container"style="justify-content: center;">
+                <h2>Contact Me</h2>
+                <p>You can reach me at nmauss@iastate.edu</p>
+                </div>
+          </section>
+        <footer>
+            <p> 2023 Naomi Mauss</p>
+            </footer> 
+
 </body>
 </html>
