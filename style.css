@@ -46,7 +46,7 @@ footer {
     }
 
 .bigger_container {
-    background-color: rgb(76.47% 76.86% 65.1%);
+    background-color: rgb(176, 193, 171);
     /* max-width: 1024px; */
     /* padding: 40px; */
     margin: auto;
@@ -189,7 +189,7 @@ footer {
     width: 100%;
     opacity: 0;
     transition: .3s ease;
-    background-color: rgb(21.18% 34.9% 12.55%);
+    background-color: rgba(54, 89, 32, 0);
     background-image: url('\\images\\arcgis_ex.png');  
   }
   
@@ -197,3 +197,17 @@ footer {
   .quote-wrapper-large:hover .overlay {
     opacity: 1;
   }
+
+  .troial {
+    height: 15%;
+    width: 100%;
+    color: rgba(62, 85, 62, 0.293);
+    position: relative;
+    margin: 0;
+    background-color: whitesmoke;
+
+  }
+
+  /* .projectCard:hover{
+    background-color: #2e4835;
+  } */
