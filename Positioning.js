@@ -28,6 +28,14 @@ fetch('./projects.html')
       syncHeights();
     });
   })
+  .then(html => {
+  const container = document.getElementById('projectContainer');
+  container.innerHTML = html;
+
+  requestAnimationFrame(() => {
+    syncAllPairs(); // ← Move this here
+  });
+})
   .catch(err => console.error("Error loading project HTML:", err));
 
 window.addEventListener('load', () => {
@@ -36,6 +44,43 @@ window.addEventListener('load', () => {
 
 // Re-sync on window resize
 window.addEventListener('resize', syncHeights);
+
+function syncHeightsForPairs(pairCount) {
+  for (let i = 1; i <= pairCount; i++) {
+    const projectCard = document.getElementById(`projectCard${i}`);
+    const thumbnail = document.getElementById(`thumbnailCont${i}`);
+
+    if (projectCard && thumbnail) {
+      const height = projectCard.offsetHeight;
+      thumbnail.style.height = `${height}px`;
+      console.log(`Synced projectCard${i} to thumbnailCont${i} → ${height}px`);
+    } else {
+      console.warn(`Missing element in pair ${i}`);
+    }
+  }
+}
+
+// Optional: Automatically find the highest existing index
+function getMaxPairIndex(maxToCheck = 50) {
+  let lastFound = 0;
+  for (let i = 1; i <= maxToCheck; i++) {
+    if (
+      document.getElementById(`projectCard${i}`) &&
+      document.getElementById(`thumbnailCont${i}`)
+    ) {
+      lastFound = i;
+    }
+  }
+  return lastFound;
+}
+
+function syncAllPairs() {
+  const maxIndex = getMaxPairIndex();
+  syncHeightsForPairs(maxIndex);
+}
+
+window.addEventListener('load', syncAllPairs);
+window.addEventListener('resize', syncAllPairs);
 
 
 

@@ -3,6 +3,7 @@
 
     <div id="myLinks"></div>
     <script src="./getLinks.js"></script>
+    <script src="Positioning.js" defer></script>
 
 </body>
 </html>
@@ -43,16 +44,7 @@
             overflow: visible;
         }
 
-        .circle {
-            position: absolute;
-            width: 80px;
-            height: 80px;
-            background-color: red;
-            border-radius: 50%;
-            top: -20px;  /* Adjusts how much it crosses the border */
-            left: 50%;
-            transform: translateX(-50%);
-        }
+
 
     a.greenspace-link:hover .troial {
       background-color: #2e473572;
@@ -63,7 +55,7 @@
 <body>
 
 <div id="projectContainer">
-<script src="Positioning.js" defer></script>
+
 
 
     
@@ -91,6 +83,20 @@
             <div id="thumbnailCont1">
                         <img src="./images/project1.png" alt="Project 1 Thumbnail" />
                     </div>
+
+            <div id="thumbnailCont2">
+                        <img src="./images/codingLang.png" alt="Project 1 Thumbnail" />
+                    </div>
+            <div id="thumbnailCont3">
+                        <img src="./images/project1.png" alt="Project 1 Thumbnail" />
+                    </div>
+            <div id="thumbnailCont4">
+                        <img src="./images/project1.png" alt="Project 1 Thumbnail" />
+                    </div>
+
+            <!-- <div id="thumbnailCont5">
+                        <img src="./images/arcgis_ex.png" alt="Project 1 Thumbnail" />
+                    </div> -->
         </section>
         <div id="side_photo">
         <div class="bigger_container">
@@ -102,9 +108,24 @@
                             <h1>Projects</h1>
                         </div>
 
-                        <div class="project-wrapper">
+                        <!-- <div class="project-wrapper"> -->
                         <!-- <div class="projectCard" style="display: flex; align-items: center; max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;"> -->
-                            <div id="projectCard1" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;"></div>
+                            <div id="projectCard1" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
+                            <a href="pdfs/AlcoaCommunityCapitalsReport.pdf" target="_blank" style="text-decoration: none; color: inherit; flex: 1;">
+                                <div class="troial" style="border-left: 5px solid #153816; border-radius: 6px;">
+                                    <blockquote style="margin: 0;">
+                                        <p style="font-size: 16px; font-family: Georgia, serif; color: #333; margin: 0;">
+                                            I wrote a report on Alcoa, TN for a sociology class. <span style="font-size: 14px;">🔗</span>
+                                        </p>
+                                    </blockquote>
+                                </div>
+                            </a>
+                            </div>
+                    <!-- </div> -->
+
+                    <!-- <div class="project-wrapper">
+                    #####    <div class="projectCard" style="display: flex; align-items: center; max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
+                            <div id="projectCard2" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;"></div>
                             <a href="pdfs/AlcoaCommunityCapitalsReport.pdf" target="_blank" style="text-decoration: none; color: inherit; flex: 1;">
                                 <div class="troial" style="padding: 10px; border-left: 5px solid #153816; border-radius: 6px;">
                                     <blockquote style="margin: 0;">
@@ -115,27 +136,19 @@
                                 </div>
                             </a>
                             <div class="arrow-container">
-                        
-                        <!-- <svg width="40" height="20" viewBox="0 0 40 20" xmlns="http://www.w3.org/2000/svg">
-                        <line x1="0" y1="10" x2="35" y2="10" stroke="#153816" stroke-width="2"/>
-                        <polygon points="35,5 40,10 35,15" fill="#153816" />
-                        </svg> -->
-
-                        <!-- <div class="thumbnail-container" style = "margin: -200;">
-                            <img src="./images/project1-thumb.png" alt="Project 1 Thumbnail" />
-                        </div> -->
                         </div>
                         
-                    </div>
+                    </div> -->
+                    
                     
                     
                         <!-- </div> -->
 
-
-                <div class="projectCard" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
+<!-- 
+                <div id="projectCard2" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
                     <a href="#">
                     <a href="pdfs/AlcoaCommunityCapitalsReport.pdf" target="_blank" style="text-decoration: none; color: inherit; display: block;" class="greenspace-link">
-                    <div class="troial" style="padding: 10px; border-left: 5px solid #153816; border-radius: 6px; height: 25px; padding: 25px; align-items: center; justify-content: center;">
+                    <div class="troial" style="padding: 10px; border-left: 5px solid #153816; border-radius: 6px; padding: 25px; align-items: center; justify-content: center;">
                     <blockquote cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/" style="margin: 0;">
                         <p style="font-size: 16px; font-family: Georgia, serif; color: #333; margin: 0 auto;">
                         I wrote a report on Alcoa, TN for a sociology class.
@@ -145,12 +158,12 @@
                     </div>
                     </a>
                     </a>
-                </div>
+                </div> -->
 
-                <div class="GISGreenspace" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
+                <div id="projectCard3" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
                 <a href="#">
                 <a href="pdfs/CRPGreenspaceProject.pdf" target="_blank" style="text-decoration: none; color: inherit; display: block;" class="greenspace-link">
-                <div class="troial" style="padding: 10px; border-right: 5px solid #153816; border-radius: 6px; height: 15px; padding: 25px; align-items: center; justify-content: center;">
+                <div class="troial" style="border-right: 5px solid #153816; border-radius: 6px;">
                 <blockquote cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/" style="margin: 0;">
                     <p style="font-size: 16px; font-family: Georgia, serif; color: #333; margin: 0 auto;">
                     I wrote a report on the correlation between city greenspace and health.
@@ -160,7 +173,7 @@
                 </div>
                 </a>
                 <a href="pdfs/CRP5510Abstract.pdf" target="_blank" style="text-decoration: none; color: inherit; display: block;" class="greenspace-link">
-                <div class="troial" style="padding: 10px; border-right: 5px solid #153816; border-radius: 6px; height: 15px; padding: 25px; align-items: center; justify-content: center;">
+                <div class="troial" style="border-right: 5px solid #153816; border-radius: 6px;">
                 <blockquote cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/" style="margin: 0;">
                         <p style="font-size: 16px; font-family: Georgia, serif; color: #333; margin: 0 auto;">
                         The project's abstract is also attached here.
@@ -173,10 +186,10 @@
                 </div>
 
 
-                <div class="WashingtonReport" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
+                <div id="projectCard4" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
                 <a href="#">
                 <a href="pdfs/WashingtonIowaFITReport.pdf" target="_blank" style="text-decoration: none; color: inherit; display: block;" class="greenspace-link">
-                <div class="troial" style="padding: 10px; border-left: 5px solid #153816; border-radius: 6px; height: 25px; padding: 25px; align-items: center; justify-content: center;">
+                <div class="troial" style="border-left: 5px solid #153816; border-radius: 6px;">
                 <blockquote cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/" style="margin: 0;">
                     <p style="font-size: 16px; font-family: Georgia, serif; color: #333; margin: 0 auto;">
                     With two other people, I helped write a report on the status of Washington, Iowa. It is specifically meant to provide information to city officials in Washington, Iowa on how outsiders might view their town.
@@ -188,10 +201,10 @@
                 </a>
                 </div>
 
-                <div class="WashingtonReport" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
+                <div id="projectCard5" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
                 <a href="#">
                 <a href="pdfs/Final_Project_CRP_5510.pdf" target="_blank" style="text-decoration: none; color: inherit; display: block;" class="greenspace-link">
-                <div class="troial" style="padding: 10px; border-right: 5px solid #153816; border-radius: 6px; height: 25px; padding: 25px; align-items: center; justify-content: center;">
+                <div class="troial" style="border-right: 5px solid #153816; border-radius: 6px;">
                 <blockquote cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/" style="margin: 0;">
                     <p style="font-size: 16px; font-family: Georgia, serif; color: #333; margin: 0 auto;">
                     For a final project, I wrote an instructional manual on how to use various ArcGIS tools in order to achieve a specific result.
@@ -204,10 +217,10 @@
                 </div>
 
 
-                <div class="WashingtonReport" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
+                <div id="projectCard6" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
                 <a href="#">
                 <a href="https://github.com/gracew-iastate/DS202-Final-Project" target="_blank" style="text-decoration: none; color: inherit; display: block;" class="greenspace-link">
-                <div class="troial" style="padding: 10px; border-left: 5px solid #153816; border-radius: 6px; height: 25px; padding: 25px; align-items: center; justify-content: center;">
+                <div class="troial" style="border-left: 5px solid #153816; border-radius: 6px;">
                 <blockquote cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/" style="margin: 0;">
                     <p style="font-size: 16px; font-family: Georgia, serif; color: #333; margin: 0 auto;">
                     My work with mapping data in R can be seen in this project I did with a fellow student for a data science project. I made all of the maps, as well as several of the graphs.
@@ -219,10 +232,10 @@
                 </a>
                 </div>
 
-                <div class="WashingtonReport" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
+                <div id="projectCard7" style="max-width: 950px; margin: 30px auto; font-family: Arial, sans-serif;">
                 <a href="#">
                 <a href="https://dspg-2024.github.io/DSPG24-Main-Blog/blogs2024/Final_Blogs/dspg-final-blogs-iowa-zoning-guide/Final_Team_Blog.html" target="_blank" style="text-decoration: none; color: inherit; display: block;" class="greenspace-link">
-                <div class="troial" style="padding: 10px; border-right: 5px solid #153816; border-radius: 6px; height: 15px; padding: 25px; align-items: center; justify-content: center;">
+                <div class="troial" style="border-right: 5px solid #153816; border-radius: 6px;">
                 <blockquote cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/" style="margin: 0;">
                     <p style="font-size: 16px; font-family: Georgia, serif; color: #333; margin: 0 auto;">
                     I ran a Quarto blog as part of my job working with Data Science for the Public Good in summer of 2024. The team and I posted about our progress on the Iowa Zoning Guide,
@@ -232,7 +245,7 @@
                 </div>
                 </a>
                 <a href="https://dspg-2024.github.io/DSPG24-Main-Blog/studentBlogs/naomi/student-midpoint-blog-bootingabend/NaomiMauss_Midpoint_Blog.html" target="_blank" style="text-decoration: none; color: inherit; display: block;" class="greenspace-link">
-                <div class="troial" style="padding: 10px; border-right: 5px solid #153816; border-radius: 6px; height: 15px; padding: 25px; align-items: center; justify-content: center;">
+                <div class="troial" style="border-right: 5px solid #153816; border-radius: 6px;">
                 <blockquote cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/" style="margin: 0;">
                     <p style="font-size: 16px; font-family: Georgia, serif; color: #333; margin: 0 auto;">
                     and I made a post about my experiences growing and learning throughout the internship!

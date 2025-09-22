@@ -237,7 +237,7 @@ footer {
 
 
   .overlay {
-    position: absolute;
+    position: flex;
     top: 0;
     bottom: 0;
     left: 0;
@@ -256,14 +256,18 @@ footer {
   }
 
   .troial {
-    height: 15%;
+    height: 25px;
     width: 100%;
     color: rgba(62, 85, 62, 0.293);
     position: relative;
     margin: 0;
     background-color: whitesmoke;
-
+    padding: 25px;
+    border-radius: 6px; 
+    align-items: center; justify-content: center;
+    /* //padding: 25px; align-items: center; justify-content: center */
   }
+
 
   /* .projectCard:hover{
     background-color: #2e4835;
