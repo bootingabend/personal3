@@ -35,6 +35,17 @@
 }
 
 
+.row {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.column {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
 
 
 
