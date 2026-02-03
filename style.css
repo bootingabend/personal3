@@ -143,6 +143,7 @@ footer {
     width: 300px;
     justify-content: center;
     vertical-align: left;
+    align-items: center;
   }
 
   .quote-wrapper-large {
@@ -151,20 +152,22 @@ footer {
     width: 400px;
     justify-content: center;
     vertical-align: left;
+    align-items: center;
   }
 
   .text {
     background: radial-gradient(
       ellipse at center,
-      rgb(45.1% 34.51% 43.92%) 0%,
+      rgb(114, 75, 109) 0%,
       rgb(104 88 115) 70%,
       rgba(0, 128, 172, 0) 70.3%
     );
     height: 100%;
     width: 100%;
-    color: rgb(106, 98, 98);
+    color: rgb(0, 0, 0);
     position: relative;
     margin: 0;
+    justify-content: center;
   }
 
   .text p {
@@ -223,6 +226,7 @@ footer {
 
   .arcgisimg {
     align-items: center;
+    justify-content: center;
     position: relative;
     top: 30%;
     left: -40%;
@@ -241,6 +245,7 @@ footer {
 
   .githubimg{
     align-items: center;
+    justify-content: center;
     position: relative;
     top: 70%;
     left: -20%;
